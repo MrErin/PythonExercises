@@ -2,17 +2,17 @@
 
 ## Lightning Exercises
 
-* [Functions, Zip, Range](./lightning-01.py)
+* [Functions, Zip, Range](./Lightning/lightning-01.py)
 
-## REgular Exercises
+## Regular Exercises
 
 * Dictionaries 
-  * [Stocks](./stocks.py)
+  * [Stocks](./Regular/stocks.py)
 * Sets
-  * [Cars](./cars.py)
+  * [Cars](./Regular/cars.py)
 * Lists
-  * [Planets](./planets.py)
+  * [Planets](./Regular/planets.py)
 * Tuples
-  * [Zoo]('./zoo.py)
+  * [Zoo]('./Regular/zoo.py)
 * Comprehensions
-  * [Family Dictionary](./family_dict.py)
+  * [Family Dictionary](./Regular/family_dict.py)
