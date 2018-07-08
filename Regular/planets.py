@@ -36,6 +36,7 @@ spacecraft = [('Saturn', 'Cassini'), ('Jupiter', 'Gallileo'),
 
 
 def missions():
+    print('SPACE MISSIONS:')
     for planet in planet_list:
         for craft in spacecraft:
             if planet in craft[0]:

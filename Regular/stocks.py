@@ -13,6 +13,7 @@ purchases = [
 
 
 def purchase_history():
+    print('PURCHASE HISTORY:')
     for purchase in purchases:
         if purchase[0] in stockDict:
             print(
@@ -26,6 +27,7 @@ purchase_history()
 # Create a second purchase summary that which accumulates total investment by ticker symbol. In the above sample data, there are two blocks of GE. These can easily be combined by creating a dict where the key is the ticker and the value is the list of blocks purchased. The program makes one pass through the data to create the dict. A pass through the dict can then create a report showing each ticker symbol and all blocks of stock.
 
 def cost_basis():
+    print('COST BASIS:')
     investments = dict([(key, 0) for key in stockDict.keys()])
     for purchase in purchases:
         if purchase[0] in investments.keys():
@@ -38,6 +40,7 @@ cost_basis()
 
 
 def investment_lists():
+    print('INVESTMENT LIST:')
     investments = dict([(key, []) for key in stockDict.keys()])
     for purchase in purchases:
         if purchase[0] in investments.keys():
