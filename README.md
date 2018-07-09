@@ -20,6 +20,7 @@
   * [Nickelback](./Regular/nickelback.py)
   * [Family Dictionary](./Regular/family_dict.py)
   * [Flowers](./Orientation/flowers.py)
+  * [Random Squared](./Regular/random_squared.py)
 * Functions
   * [Lightning-01](./Lightning/lightning-01.py)
   * [Human Sizes](./Orientation/humansizes.py)
@@ -27,6 +28,7 @@
   * [Planets](./Regular/planets.py)
 * Importing
   * [Human Sizes](./Orientation/humansizes.py) & [Human Sizes Test](./Orientation/humansizesTest.py)
+  * [Importing Random](./Regular/random_squared.py)
 * Classes
   * [Zoo (Orientation)](./Orientation/zoo.py)
   * [Company and Employees](./Regular/employees.py)
