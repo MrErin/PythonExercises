@@ -34,12 +34,10 @@ class Employee:
         self.employee_start_date = new_start_date
         print(f'Employee start date changed to {new_start_date}')
 
-    def __str__(self):
-        return f'{employee_title}: {employee_name} (since {employee_start_date})'
-
-
 # Copy the Company class
 # Modify the `Company` class so that you assign employees to a company.
+
+
 class Company:
     """This represents a company in which people work"""
 
@@ -53,12 +51,19 @@ class Company:
 
         return self.company_name
 
+    def employee_list(self):
+        '''Returns a formatted list of employees for this company'''
+        for e in self.employees:
+            print(e)
+
     def __str__(self):
-        return f'{self.company_name} was founded on {self.date_founded}. Employee list: {self.employees}'
+        employee_list = ''
+        for e in self.employees:
+            employee_list += f'{e.employee_title}: {e.employee_name} (since {e.employee_start_date}) '
+        return (f'{self.company_name} was founded on {self.date_founded}. Employee list: {employee_list}')
+
 
 # Create a company, and three employees, and then assign the employees to the company.
-
-
 # If this module is being executed immediately and not imported
 if __name__ == '__main__':
     # Create a company
@@ -74,5 +79,4 @@ if __name__ == '__main__':
     MyCo.employees.add(betty)
     MyCo.employees.add(carly)
 
-# ? How can I make the employee list print as the __str__ I defined on the class?
     print(MyCo)
