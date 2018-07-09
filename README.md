@@ -10,12 +10,14 @@
   * [Stocks](./Regular/stocks.py)
 * Sets
   * [Cars](./Regular/cars.py)
+  * [Nickelback](./Regular/nickelback.py)
 * Lists
   * [Planets](./Regular/planets.py)
 * Tuples
   * [Zoo (Regular)]('./Regular/zoo.py)
   * [Planets](./Regular/planets.py)
 * Comprehensions
+  * [Nickelback](./Regular/nickelback.py)
   * [Family Dictionary](./Regular/family_dict.py)
   * [Flowers](./Orientation/flowers.py)
 * Functions
@@ -27,3 +29,4 @@
   * [Human Sizes](./Orientation/humansizes.py) & [Human Sizes Test](./Orientation/humansizesTest.py)
 * Classes
   * [Zoo (Orientation)](./Orientation/zoo.py)
+  * [Company and Employees](./Regular/employees.py)
