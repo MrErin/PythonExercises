@@ -28,10 +28,10 @@ purchase_history()
 
 def cost_basis():
     print('COST BASIS:')
-    investments = dict([(key, 0) for key in stockDict.keys()])
+    investments = dict((key, 0) for key in stockDict.keys())
+    print(investments)
     for purchase in purchases:
-        if purchase[0] in investments.keys():
-            investments[purchase[0]] += purchase[1] * purchase[3]
+        investments[purchase[0]] += purchase[1] * purchase[3]
 
     print(investments)
 
@@ -41,10 +41,9 @@ cost_basis()
 
 def investment_lists():
     print('INVESTMENT LIST:')
-    investments = dict([(key, []) for key in stockDict.keys()])
+    investments = dict((key, []) for key in stockDict.keys())
     for purchase in purchases:
-        if purchase[0] in investments.keys():
-            investments[purchase[0]] += purchase
+        investments[purchase[0]] += purchase
 
     print(investments)
 

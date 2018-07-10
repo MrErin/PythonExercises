@@ -29,6 +29,8 @@
 * Importing
   * [Human Sizes](./Orientation/humansizes.py) & [Human Sizes Test](./Orientation/humansizesTest.py)
   * [Importing Random](./Regular/random_squared.py)
+  * [Animal/Pet/Dog/Murph](./Lightning/JoeIsAwesome/main.py)
 * Classes
   * [Zoo (Orientation)](./Orientation/zoo.py)
   * [Company and Employees](./Regular/employees.py)
+  * [Animal/Pet/Dog/Murph](./Lightning/JoeIsAwesome/main.py)
