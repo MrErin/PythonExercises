@@ -15,10 +15,9 @@ purchases = [
 def purchase_history():
     print('PURCHASE HISTORY:')
     for purchase in purchases:
-        if purchase[0] in stockDict:
-            print(
-                f'On {purchase[2]} I purchased {purchase[1]} shares of {stockDict[purchase[0]]} ({purchase[0]}) at ${purchase[3]} a share; a total value of ${purchase[1] * purchase[3]}.'
-            )
+        print(
+            f'On {purchase[2]} I purchased {purchase[1]} shares of {stockDict[purchase[0]]} ({purchase[0]}) at ${purchase[3]} a share; a total value of ${purchase[1] * purchase[3]}.'
+        )
 
 
 purchase_history()
@@ -49,3 +48,39 @@ def investment_lists():
 
 
 investment_lists()
+
+
+# Steve's code
+
+portfolio = dict()
+for purchase in purchases:
+    ticker = purchase[0]
+
+    full_company_name = stockDict[ticker]
+    number_of_shares = purchase[1]
+    purchase_price = purchase[3]
+    full_purchase_price = number_of_shares * purchase_price
+
+    minimal_purchase = (purchase[1], purchase[2], purchase[3])
+
+    try:
+        # Append the purchase to the ticker list
+        portfolio[ticker].append(purchase)
+    except KeyError:
+        portfolio[ticker] = list()  # If the key doesn't exist yet, create it
+        portfolio[ticker].append(purchase)
+
+    print("I purchased {} stock for ${}".format(
+        full_company_name, full_purchase_price))
+
+print(portfolio)
+
+
+for ticker, purchases in portfolio.items():
+    print("------ {} ------".format(ticker))
+    total_portfolio_stock_value = 0
+    for purchase in purchases:
+        total_portfolio_stock_value += purchase[1] * purchase[3]
+        print("    {}".format(purchase))
+    print("Total value of stock in portfolio: ${}\n\n".format(
+        total_portfolio_stock_value))
