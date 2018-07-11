@@ -36,7 +36,7 @@ class Calculator():
         return first_num * second_num
 
     def divide(self, first_num, second_num):
-        '''Dividess two numbers
+        '''Divides two numbers
 
         Arguments:
             first_num: any number
@@ -45,9 +45,9 @@ class Calculator():
         return first_num / second_num
 
 
-myCalc = Calculator
+# myCalc = Calculator()
 
-print(myCalc.add(1, 1))
-print(myCalc.subtract(10, 1))
-print(myCalc.multiply(1, 6))
-print(myCalc.divide(6, 3))
+# print(myCalc.add(1, 1))
+# print(myCalc.subtract(10, 1))
+# print(myCalc.multiply(1, 6))
+# print(myCalc.divide(6, 3))
