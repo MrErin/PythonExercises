@@ -36,3 +36,7 @@
   * [Company and Employees](./Regular/employees.py)
   * [Animal/Pet/Dog/Murph](./Lightning/JoeIsAwesome/main.py)
   * [Steve the Builder](./Lightning/SteveBuilding/)
+* With (Opening/Closing Files)
+  * [ReadWrite](./Lightning/ReadWrite/)
+* Unit Testing
+  * [Palindrome Tests](./Lightning/JoeTest/)
