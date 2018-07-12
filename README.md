@@ -1,9 +1,5 @@
 # Python Exercises
 
-## Lightning Exercises
-
-* [Functions, Zip, Range](./Lightning/lightning-01.py)
-
 ## Regular Exercises
 
 * Dictionaries 
@@ -31,12 +27,19 @@
   * [Importing Random](./Regular/random_squared.py)
   * [Animal/Pet/Dog/Murph](./Lightning/JoeIsAwesome/main.py)
   * [Steve the Builder](./Lightning/SteveBuilding/)
+  * [Class Live Coding Exercise](./Regular/test_animals_live_coding/)
 * Classes
   * [Zoo (Orientation)](./Orientation/zoo.py)
   * [Company and Employees](./Regular/employees.py)
   * [Animal/Pet/Dog/Murph](./Lightning/JoeIsAwesome/main.py)
   * [Steve the Builder](./Lightning/SteveBuilding/)
+* Inheritance, Composition, Aggregation
+  * [Class Live Coding Exercise](./Regular/test_animals_live_coding/)
 * With (Opening/Closing Files)
   * [ReadWrite](./Lightning/ReadWrite/)
 * Unit Testing
   * [Palindrome Tests](./Lightning/JoeTest/)
+  * [Class Animal/Habitat Coding Exercise](./Lightning/ClassAnimalTesting1)
+  * [Class Live Coding Exercise](./Regular/test_animals_live_coding/)
+* Zip, Range
+  * [Zip, Range](./Lightning/lightning-01.py)
