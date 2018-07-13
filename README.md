@@ -35,8 +35,9 @@
   * [Steve the Builder](./Lightning/SteveBuilding/)
 * Inheritance, Composition, Aggregation
   * [Class Live Coding Exercise](./Regular/test_animals_live_coding/)
-* With (Opening/Closing Files)
+* Reading/Writing Files
   * [ReadWrite](./Lightning/ReadWrite/)
+  * [Car Files](./Regular/ReadWriteCars)
 * Unit Testing
   * [Palindrome Tests](./Lightning/JoeTest/)
   * [Class Animal/Habitat Coding Exercise](./Lightning/ClassAnimalTesting1)
