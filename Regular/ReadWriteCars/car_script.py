@@ -6,6 +6,7 @@ class BuildCars():
     def create_dictionary(self):
         # rstrip removes the newline character from the text files
         car_makes = [line.rstrip() for line in open('car-makes.txt')]
+        print(car_makes)
         car_models = [line.rstrip() for line in open('car-models.txt')]
 
         car_dictionary = dict()

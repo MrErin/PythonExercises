@@ -34,13 +34,16 @@
   * [Animal/Pet/Dog/Murph](./Lightning/JoeIsAwesome/main.py)
   * [Steve the Builder](./Lightning/SteveBuilding/)
 * Inheritance, Composition, Aggregation
-  * [Class Live Coding Exercise](./Regular/test_animals_live_coding/)
+  * [Class Live Coding Exercise](./Regular/testAnimalsLiveCoding/)
 * Reading/Writing Files
   * [ReadWrite](./Lightning/ReadWrite/)
   * [Car Files](./Regular/ReadWriteCars)
 * Unit Testing
   * [Palindrome Tests](./Lightning/JoeTest/)
-  * [Class Animal/Habitat Coding Exercise](./Lightning/ClassAnimalTesting1)
-  * [Class Live Coding Exercise](./Regular/test_animals_live_coding/)
+  * [Class Animal/Habitat Coding Exercise](./Lightning/ClassAnimalTesting1/)
+  * [Class Live Coding Exercise](./Regular/testAnimalsLiveCoding/)
+  * [Bag Of Loot](./Regular/Lootbag/)
 * Zip, Range
   * [Zip, Range](./Lightning/lightning-01.py)
+* Command Line Interface
+  * [Bag Of Loot](./Regular/Lootbag/)
