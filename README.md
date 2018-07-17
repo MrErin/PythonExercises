@@ -27,12 +27,13 @@
   * [Importing Random](./Regular/random_squared.py)
   * [Animal/Pet/Dog/Murph](./Lightning/JoeIsAwesome/main.py)
   * [Steve the Builder](./Lightning/SteveBuilding/)
-  * [Class Live Coding Exercise](./Regular/test_animals_live_coding/)
+  * [Class Live Coding Exercise](./Regular/testAnimalsLiveCoding/)
 * Classes
   * [Zoo (Orientation)](./Orientation/zoo.py)
   * [Company and Employees](./Regular/employees.py)
   * [Animal/Pet/Dog/Murph](./Lightning/JoeIsAwesome/main.py)
   * [Steve the Builder](./Lightning/SteveBuilding/)
+  * [Bag Of Loot](./Regular/Lootbag/)
 * Inheritance, Composition, Aggregation
   * [Class Live Coding Exercise](./Regular/testAnimalsLiveCoding/)
 * Reading/Writing Files
