@@ -39,6 +39,8 @@
 * Reading/Writing Files
   * [ReadWrite](./Lightning/ReadWrite/)
   * [Car Files](./Regular/ReadWriteCars)
+  * [Mary Margaret](./Regular/Mary_Margaret)
+  * [Creating A File In Specified Path](./Orientation/python_relative_paths.py)
 * Unit Testing
   * [Palindrome Tests](./Lightning/JoeTest/)
   * [Class Animal/Habitat Coding Exercise](./Lightning/ClassAnimalTesting1/)
@@ -47,4 +49,8 @@
 * Zip, Range
   * [Zip, Range](./Lightning/lightning-01.py)
 * Command Line Interface
-  * [Bag Of Loot](./Regular/Lootbag/)
+  * [Bag Of Loot](./Regular/Lootbag/) (CLI not implemented yet)
+  * [Mary Margaret](./Regular/Mary_Margaret) (CLI not implemented yet)
+* SQL
+  * [Music History](./Regular/MusicHistory)
+  * [Superheroes](./Lightning/superhero.sql)
