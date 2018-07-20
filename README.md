@@ -1,7 +1,5 @@
 # Python Exercises
 
-## Regular Exercises
-
 * Dictionaries 
   * [Stocks](./Regular/stocks.py)
 * Sets
