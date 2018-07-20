@@ -37,11 +37,7 @@ class Lootbag:
                 print(k.toy_list())
 
     def __str__(self):
-        formatted_kid_list = f'\n'
-        for k in self.kids:
-            formatted_kid_list += ("{} ({behavior})\n".format(
-                (k.name), behavior="nice" if k.is_nice == True else "naughty"))
-        return f"This bag is colored {self.color}. \n----- Kid List -----{formatted_kid_list}"
+        return f"This bag is colored {self.color}."
 
 
 if __name__ == '__main__':

@@ -28,7 +28,7 @@ class Kid():
         return ",\n".join(self.toys)
 
     def deliver_all_toys(self):
-        if self.delivered = False:
+        if self.delivered == False:
             self.delivered = True
             return f"All of {self.name}'s toys have been delivered!"
         else:

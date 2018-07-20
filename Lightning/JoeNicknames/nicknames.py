@@ -102,3 +102,7 @@ if __name__ == '__main__':
         print("New nickname added. Thanks.")
     else:
         print(name_maker.assign_nicknames())
+# * To use CLI:
+# * cd into the directory
+# * To print the list of mob names: "python nicknames.py name_maker"
+# * To add a new name to the list: "python nicknames.py add_nick '[new nickname]'"
