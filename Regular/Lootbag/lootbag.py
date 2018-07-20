@@ -46,11 +46,28 @@ if __name__ == '__main__':
     Bruce = Kid('Bruce', 0)
     Blue_Bag.kids.add(Amy)
     Blue_Bag.kids.add(Bruce)
-    Amy.add_toy('bike')
-    Amy.add_toy('sailboat')
-    Amy.add_toy('ball')
-    Bruce.add_toy('coal')
+    # Amy.add_toy('bike')
+    # Amy.add_toy('sailboat')
+    # Amy.add_toy('ball')
+    # Bruce.add_toy('coal')
 
-    print(Blue_Bag)
-    Blue_Bag.kid_list()
-    Blue_Bag.delivery_list()
+    # print(Blue_Bag)
+    # Blue_Bag.kid_list()
+    # Blue_Bag.delivery_list()
+
+    if len(sys.argv) > 1 and sys.argv[1] == "add":
+        # add kite suzy
+        for b in Blue_Bag.kids:
+            if (sys.argv[3]) == b.name:
+                b.add_toy(sys.argv[2])
+                b.toy_list()
+            else:
+                print('That child is not on the list')
+
+# remove suzy kite
+
+# list children currently receiving presents (using the ls command)
+
+# list all toys for a specific child (ls suzy)
+
+# mark all of a child's toys delivered (delivered suzy)

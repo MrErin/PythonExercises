@@ -1,4 +1,4 @@
-class Kid():
+class Kid:
 
     def __init__(self, name=None, is_nice=True):
         """Creates a new kid for the loot bag
@@ -19,13 +19,17 @@ class Kid():
 
     def add_toy(self, toy_name):
         self.toys.add(toy_name)
+        print(f"{toy_name} added to {self.name}'s toy list.")
 
     def remove_toy(self, toy_name):
         self.toys.remove(toy_name)
 
     def toy_list(self):
         """Returns a formatted list of toys for this child"""
-        return ",\n".join(self.toys)
+        print(f"----- {self.name}'s Toy List -----'")
+        for t in self.toys:
+            print(t)
+        # return ",\n".join(self.toys)
 
     def deliver_all_toys(self):
         if self.delivered == False:

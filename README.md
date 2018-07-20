@@ -57,3 +57,5 @@
   * [Superheroes](./Lightning/superhero.sql)
 * Decorators
   * [Nicknames](./Lightning/JoeNicknames/nicknames.py)
+* Awesome String Formatting with Logic
+  * [Lootbag](./Regular/Lootbag/lootbag.py)

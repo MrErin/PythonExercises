@@ -34,10 +34,9 @@ try:
 except IOError:
     print("wrong path provided")
 
-with open(nickset_filepath, "w") as nicknames:
+with open(nickset_filepath, "a") as nicknames:
 
-    # checks for an empty file
-    # ? why do we need to do this? we're using the append method; so what does it matter? Also, I changed it to a "w" and it had no effect on the program.
+    # This part will only run the first time. It creates/populates the files on the initial load.
     if os.path.getsize(nickset_filepath) == 0:
         print("File is empty", os.path.getsize(nickset_filepath))
         for nick in nickset:
@@ -52,10 +51,10 @@ class NameFactory():
     """Smooshes together the names and nicknames, mob style: FirstName "Nickname" LastName"""
 
     # You need to use @staticmethod if you want to call a function inside a class without instantiating it. At the end of this file, we run the methods from the class directly.
+    # We do it this way for two reasons: 1.) telling Python that we aren't passing self into the method will save some amount of processing work and 2.) it is a signal to the developer that this is a helper function, not something that will typically be called on its own.
 
     @staticmethod
-    # The leading underscore in the method name indicates it's a private method, which means it can't be called from outside its class.
-    # ? Still not clear on why that might be important.
+    # The leading underscore in the method name indicates it's a private method, which means it generally won't be called from outside its class.
     def _get_nicknames():
         """returns a set of nicknames read from a text file"""
 
@@ -95,14 +94,20 @@ class NameFactory():
 if __name__ == '__main__':
     name_maker = NameFactory()
 
-    # ? Why do you have to check the length of the sys.argvs here? Why isn't it adequate to just call the method?
-    # ? How would I set up a second CLI command? Would I have to wrap it in another if?
+    # You have to check for the argument this way to make sure it doesn't error out (that's the first if) and the sys.argv[1] argument is not a static list, it's just the next thing you pass after writing the filename.
+    # python nicknames.py add_nick "heloise"
+    # In the above example, "nicknames.py" is sysargv[0]
+    # "add_nick" is sysargv[1]
+    # "heloise" is sysargv[2]
+
+    # If there is a sysargv[1] and that arg is "add_nick"...
     if len(sys.argv) > 1 and sys.argv[1] == "add_nick":
+        # run this method, passing in sysargv[2]
         name_maker.add_nick(sys.argv[2])
         print("New nickname added. Thanks.")
     else:
         print(name_maker.assign_nicknames())
-# * To use CLI:
-# * cd into the directory
-# * To print the list of mob names: "python nicknames.py name_maker"
-# * To add a new name to the list: "python nicknames.py add_nick '[new nickname]'"
+    # * To use CLI:
+    # * cd into the directory
+    # * To print the list of mob names: "python nicknames.py name_maker"
+    # * To add a new name to the list: "python nicknames.py add_nick '[new nickname]'"
