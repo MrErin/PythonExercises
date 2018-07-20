@@ -32,6 +32,8 @@
   * [Animal/Pet/Dog/Murph](./Lightning/JoeIsAwesome/main.py)
   * [Steve the Builder](./Lightning/SteveBuilding/)
   * [Bag Of Loot](./Regular/Lootbag/)
+* Class Factories (Classes that are more than objects?)
+  * [Nicknames](./Lightning/JoeNicknames/nicknames.py)
 * Inheritance, Composition, Aggregation
   * [Class Live Coding Exercise](./Regular/testAnimalsLiveCoding/)
 * Reading/Writing Files
@@ -49,6 +51,9 @@
 * Command Line Interface
   * [Bag Of Loot](./Regular/Lootbag/) (CLI not implemented yet)
   * [Mary Margaret](./Regular/Mary_Margaret) (CLI not implemented yet)
+  * [Nicknames](./Lightning/JoeNicknames/nicknames.py)
 * SQL
   * [Music History](./Regular/MusicHistory)
   * [Superheroes](./Lightning/superhero.sql)
+* Decorators
+  * [Nicknames](./Lightning/JoeNicknames/nicknames.py)
