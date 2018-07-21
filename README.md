@@ -49,7 +49,7 @@
 * Zip, Range
   * [Zip, Range](./Lightning/lightning-01.py)
 * Command Line Interface
-  * [Bag Of Loot](./Regular/Lootbag/) (CLI not implemented yet)
+  * [Bag Of Loot](./Regular/Lootbag/)
   * [Mary Margaret](./Regular/Mary_Margaret) (CLI not implemented yet)
   * [Nicknames](./Lightning/JoeNicknames/nicknames.py)
 * SQL
@@ -57,5 +57,5 @@
   * [Superheroes](./Lightning/superhero.sql)
 * Decorators
   * [Nicknames](./Lightning/JoeNicknames/nicknames.py)
-* Awesome String Formatting with Logic
+* Awesome String Formatting with Logic (Cool Reports)
   * [Lootbag](./Regular/Lootbag/lootbag.py)

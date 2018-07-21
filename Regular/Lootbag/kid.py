@@ -12,28 +12,33 @@ class Kid:
             toys: set of toys assigned to child
             delivered: can be True or False (default: False)
         """
-        self.name = name
+        self.name = name.capitalize()
         self.is_nice = is_nice
         self.toys = set()
         self.delivered = False
 
     def add_toy(self, toy_name):
+        """Adds the toy_name to the child's list"""
         self.toys.add(toy_name)
         print(f"{toy_name} added to {self.name}'s toy list.")
 
     def remove_toy(self, toy_name):
+        """Removes the toy_name from the child's list"""
         self.toys.remove(toy_name)
+        print(f"{toy_name} removed from {self.name}'s toy list.")
 
     def toy_list(self):
         """Returns a formatted list of toys for this child"""
-        print(f"----- {self.name}'s Toy List -----'")
-        for t in self.toys:
-            print(t)
-        # return ",\n".join(self.toys)
+        print(f"*** {self.name}'s Toy List ***")
+        return("\n".join(t.capitalize() for t in self.toys))
 
     def deliver_all_toys(self):
-        if self.delivered == False:
+        """Marks all toys delivered for this child"""
+        if self.delivered == False and self.is_nice == True:
             self.delivered = True
-            return f"All of {self.name}'s toys have been delivered!"
+            print(f"All of {self.name}'s toys have been delivered!")
+        elif self.delivered == False and self.is_nice == False:
+            self.delivered = True
+            print(f"Delivered coal to that brat, {self.name}.")
         else:
-            return f"You already delivered {self.name}'s toys, you senile Santa!"
+            print(f"You already delivered {self.name}'s toys, you senile Santa!")

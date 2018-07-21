@@ -1,5 +1,3 @@
-import sys
-
 from kid import Kid
 
 # Requirements
@@ -29,12 +27,14 @@ class Lootbag:
                 (k.name), behavior="nice" if k.is_nice == True else "naughty"))
 
     def delivery_list(self):
-        """Returns the list of kids who WILL receive toys"""
+        """Returns the list of deliveries by child"""
         print("----- Delivery List -----")
         for k in self.kids:
             if k.is_nice == True and k.toys and k.delivered == False:
-                print(f"{k.name}:\n")
                 print(k.toy_list())
+            if k.is_nice == False and k.delivered == False:
+                print(f"*** {k.name}'s Toy List ***")
+                print('Coal')
 
     def __str__(self):
         return f"This bag is colored {self.color}."
@@ -42,32 +42,18 @@ class Lootbag:
 
 if __name__ == '__main__':
     Blue_Bag = Lootbag('blue')
-    Amy = Kid('Amy', 1)
-    Bruce = Kid('Bruce', 0)
+    Amy = Kid('amy', 1)
+    Bruce = Kid('bruce', 0)
     Blue_Bag.kids.add(Amy)
     Blue_Bag.kids.add(Bruce)
-    # Amy.add_toy('bike')
-    # Amy.add_toy('sailboat')
-    # Amy.add_toy('ball')
-    # Bruce.add_toy('coal')
+    Amy.add_toy('bike')
+    Amy.add_toy('sailboat')
+    Amy.add_toy('ball')
 
-    # print(Blue_Bag)
-    # Blue_Bag.kid_list()
-    # Blue_Bag.delivery_list()
-
-    if len(sys.argv) > 1 and sys.argv[1] == "add":
-        # add kite suzy
-        for b in Blue_Bag.kids:
-            if (sys.argv[3]) == b.name:
-                b.add_toy(sys.argv[2])
-                b.toy_list()
-            else:
-                print('That child is not on the list')
-
-# remove suzy kite
-
-# list children currently receiving presents (using the ls command)
-
-# list all toys for a specific child (ls suzy)
-
-# mark all of a child's toys delivered (delivered suzy)
+    print(Blue_Bag)
+    Blue_Bag.kid_list()
+    Blue_Bag.delivery_list()
+    Amy.deliver_all_toys()
+    Bruce.deliver_all_toys()
+    Amy.deliver_all_toys()
+    Bruce.deliver_all_toys()

@@ -17,3 +17,8 @@ try:
     f.close()
 except IOError:
     print("Wrong path provided")
+
+
+# to look in a directory one level up, it's:
+
+os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', '[directoryname]'))
