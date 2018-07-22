@@ -1,5 +1,7 @@
 # Python Exercises
 
+[Django Installation Notes](./Orientation/django_installation.md)
+
 * Dictionaries 
   * [Stocks](./Regular/stocks.py)
 * Sets
