@@ -49,7 +49,7 @@
 * Zip, Range
   * [Zip, Range](./Lightning/lightning-01.py)
 * Command Line Interface
-  * [Bag Of Loot](./Regular/Lootbag/)
+  * [Bag Of Loot](./Regular/Lootbag/): Still have some errors with the CLI
   * [Mary Margaret](./Regular/Mary_Margaret) (CLI not implemented yet)
   * [Nicknames](./Lightning/JoeNicknames/nicknames.py)
 * SQL

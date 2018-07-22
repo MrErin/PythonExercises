@@ -21,3 +21,4 @@ if __name__ == '__main__':
     my_Margaret = Margaret()
     my_Margaret.write_message_to_file('Hellow')
     my_Margaret.write_message_to_file('Hellow you')
+    my_Margaret.write_message_to_file('Hellow how is you')
