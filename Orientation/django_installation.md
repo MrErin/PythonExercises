@@ -3,13 +3,13 @@
 ## To start a new Django app:
 
 1. cd into your project directory.
-1. in the command prompt, type ```python -m venv myvenv``` where "myvenv" is the name of your virtual environment.
+2. in the command prompt, type ```python -m venv myvenv``` where "myvenv" is the name of your virtual environment.
   * Note: the .gitignore template automatically excludes any directory ending with "venv"
-1. cd into myvenv directory
-1. run the following:```shell . Scripts/activate```
+3. cd into myvenv directory
+4. run the following:```. Scripts/activate```
   * You will know the virtual environment is running when the command prompt is preceded with "(myvenv)" (or whatever you named your virtual environment)
-1. cd into the project root directory (out of the myvenv directory)
-1. run the following command: ```shell django-admin.exe startproject mysite .```
+5. cd into the project root directory (out of the myvenv directory)
+6. run the following command: ```django-admin.exe startproject mysite .```
   * "mysite" is the name of your project
   * note the period at the end of the command.
 
