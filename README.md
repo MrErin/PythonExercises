@@ -1,6 +1,13 @@
 # Python Exercises
 
-[Django Installation Notes](./Orientation/django_installation.md)
+## General Instructions
+
+* [Django Installation Notes](./General_Instructions/django_installation.md)
+* [React App Instructions](./General_Instructions/set_up_react_app.md)
+* [Virtual Environment Setup](./General_Instructions/set_up_venv.md)
+* [Useful Django Modules](./General_Instructions/django_modules.md)
+
+## Exercises
 
 * Dictionaries 
   * [Stocks](./Regular/stocks.py)
@@ -57,6 +64,7 @@
 * SQL
   * [Music History](./Regular/MusicHistory)
   * [Superheroes](./Lightning/superhero.sql)
+  * [Bangazon Data Model & Scripts](./Regular/BangazonData)
 * Decorators
   * [Nicknames](./Lightning/JoeNicknames/nicknames.py)
 * Awesome String Formatting with Logic (Cool Reports)
