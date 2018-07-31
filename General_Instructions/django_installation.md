@@ -5,6 +5,7 @@
 It's a good idea to start by [creating a virtual environment](./set_up_venv.md).
 
 1. cd into the project root directory
+1. Run ```pip install django```
 1. run the following command: ```django-admin.exe startproject mysite .```
   * "mysite" is the name of your project
   * note the period at the end of the command.
