@@ -18,3 +18,5 @@ OR
   * ```pip install django_seed```
 * Django CORS Headers: adds authentication for API access
   * ```pip install django-cors-headers```
+* Django Webpack Loader: allows React integration for Django
+  * ```pip install django-webpack-loader```

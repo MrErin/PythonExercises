@@ -52,3 +52,4 @@ yarn-error.log*
 scratch.md
 scratch.js
 scratch.py
+*.sqlite
