@@ -8,7 +8,7 @@
 3. CD into the myvenv directory
 4. Run the following command: ```. Scripts/activate```
   * You will know the virtual environment is running when the command prompt is preceded with ```(myvenv)```
-5. CD into the project root directory (should be a sibling of the myvenv directory)
+5. CD into the project root directory (should be the parent of the myvenv directory)
 6. [Install Django and create a Django app](./django_installation.md)
 7. Run the following command: ```python manage.py runserver```
 8. Open a web browser and navigate to [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
