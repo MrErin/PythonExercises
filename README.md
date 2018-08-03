@@ -6,6 +6,7 @@
 * [React App Instructions](./General_Instructions/set_up_react_app.md)
 * [Virtual Environment Setup](./General_Instructions/set_up_venv.md)
 * [Useful Django Modules](./General_Instructions/django_modules.md)
+* [Create Custom Django Commands](./General_Instructions/setup_django_command_line.md)
 
 ## Exercises
 
