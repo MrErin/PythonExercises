@@ -1,0 +1,1 @@
+-- Get the category name and count of orders processed by employees in the USA

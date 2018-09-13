@@ -1,0 +1,1 @@
+-- Get the list of the products which don’t have any orders across all the months and year as

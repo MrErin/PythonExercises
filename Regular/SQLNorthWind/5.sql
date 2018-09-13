@@ -1,0 +1,1 @@
+-- Get the list of the months which don’t have any orders for product chai
