@@ -58,7 +58,7 @@
   * [Music History](./Regular/MusicHistory)
   * [Superheroes](./Lightning/superhero.sql)
   * [Bangazon Data Model & Scripts](./Regular/BangazonData)
-  * [Northwind](./Regular/SQLNorthWind) need to write the queries
+  * [Northwind](./Regular/SQLNorthWind)
   * [Chinook](./Regular/SQLChinook)
 * Decorators
   * [Nicknames](./Lightning/JoeNicknames/nicknames.py)
