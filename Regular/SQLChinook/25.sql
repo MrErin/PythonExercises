@@ -8,4 +8,4 @@ FROM Invoice i
 
 GROUP BY t.Name
 ORDER BY NumberOfPurchases DESC
-LIMIT 5
+LIMIT 5;

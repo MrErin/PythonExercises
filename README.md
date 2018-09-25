@@ -1,13 +1,5 @@
 # Python Exercises
 
-## General Instructions
-
-* [Django Installation Notes](./General_Instructions/django_installation.md)
-* [React App Instructions](./General_Instructions/set_up_react_app.md)
-* [Virtual Environment Setup](./General_Instructions/set_up_venv.md)
-* [Useful Django Modules](./General_Instructions/django_modules.md)
-* [Create Custom Django Commands](./General_Instructions/setup_django_command_line.md)
-
 ## Exercises
 
 * Dictionaries 
@@ -66,6 +58,8 @@
   * [Music History](./Regular/MusicHistory)
   * [Superheroes](./Lightning/superhero.sql)
   * [Bangazon Data Model & Scripts](./Regular/BangazonData)
+  * [Northwind](./Regular/SQLNorthWind) need to write the queries
+  * [Chinook](./Regular/SQLChinook)
 * Decorators
   * [Nicknames](./Lightning/JoeNicknames/nicknames.py)
 * Awesome String Formatting with Logic (Cool Reports)
